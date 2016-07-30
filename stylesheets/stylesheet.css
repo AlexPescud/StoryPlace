@@ -78,15 +78,18 @@ a {
 
 @media screen and (min-width: 64em) {
   .project-name {
-    font-size: 3.25rem; } }
+    font-size: 3.25rem; 
+    text-shadow: -1px -1px 0 #000,     1px -1px 0 #000,     -1px 1px 0 #000,     1px 1px 0 #000;} }
 
 @media screen and (min-width: 42em) and (max-width: 64em) {
   .project-name {
-    font-size: 2.25rem; } }
+    font-size: 2.25rem;
+    text-shadow: -1px -1px 0 #000,     1px -1px 0 #000,     -1px 1px 0 #000,     1px 1px 0 #000; } }
 
 @media screen and (max-width: 42em) {
   .project-name {
-    font-size: 1.75rem; } }
+    font-size: 1.75rem;
+    text-shadow: -1px -1px 0 #000,     1px -1px 0 #000,     -1px 1px 0 #000,     1px 1px 0 #000; } }
 
 .project-tagline {
   margin-bottom: 2rem;
